@@ -1,0 +1,74 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache & temp files
+*.log
+*.tmp
+*.temp
+*.pickle
+*.pkl
+*.gz
+*.zip
+
+# VSCode
+.vscode/
+.history/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Project-specific ignores
+# -------------------------------
+
+# Do NOT upload ANY data (raw, interim, processed)
+data/
+data/*
+
+# Results (models, figures, tables)
+results/
+results/*
+
+# Local experiments
+scratch/
+experiments/
+
+# Large model files
+*.h5
+*.pt
+*.joblib
+*.sav
+*.model
+
+# Parquet files
+*.parquet
+*.snappy
+
+# -------------------------------
+# Environment & dependency files
+# -------------------------------
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+site/
+
+# -------------------------------
+# Logs from training
+# -------------------------------
+logs/
+*.log
